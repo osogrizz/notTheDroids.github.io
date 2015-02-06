@@ -1,0 +1,131 @@
+
+
+/*#background{
+	background: url("http://i.imgur.com/CZqYVkM.jpg") repeat 5% 5%;
+	position: absolute;
+	background-size: cover;
+	top: 0; right: 0; bottom: 0; left: 0;
+	z-index: 100;
+}
+
+#midground {
+	background: url("https://returntomegame.files.wordpress.com/2014/11/background5_midground.png") repeat 20% 20%;
+	position: absolute;
+	background-size: cover;
+	z-index: 200;
+}
+
+
+
+#foreground {
+	background: url("http://chopchopcapuchin.com/images/grass_foreground.png") repeat 90% 100%;
+	position: absolute;
+
+	top: 0; right: 0; bottom: 0; left: 0;
+	z-index: 300;
+}*/
+
+
+#menu {
+	margin: 0 auto;
+	height: 72px;
+	width: 1280px;
+	background: rgba(40, 40, 40, .9);
+	color: white;
+	text-shadow:2px 2px black;
+	
+
+}
+
+#gameView {
+	margin: 0 auto;
+	height: 584px;
+	width: 1280px;
+	background-image: url("tatooine.jpg");
+	background-size: cover;
+	
+	padding-bottom: 20px; 
+
+}
+
+#flyZone {
+	height: 560px;
+	width: 640px;
+	
+
+}
+
+
+#mission {
+	
+	text-decoration: bold;
+	font-size: 20px;
+	font-family: Aurebesh, serif, sans-serif;
+	text-align: center;
+}
+
+
+#level {
+	text-decoration: bold;
+	font-size: 20px;
+	font-family: Aurebesh, serif, sans-serif;
+	text-align: center;	
+}
+
+
+#score {
+	text-decoration: bold;
+	font-size: 20px;
+	font-family: Aurebesh, serif, sans-serif;
+	text-align: center;
+	z-index: 800;
+}
+
+.lives {
+	margin-left: 90%;
+	text-decoration: bold;
+	color:white;
+	font-size: 15px;
+	display: inline-block;
+	z-index: 500;
+}
+
+.lives div {
+	height: 30px;
+	width: 30px;
+	border-radius: 20px;
+	background-image: url("TieFighter_archigraphs (1).png");
+	background-size: contain;
+	display: inline-block;
+	float: right;
+	margin: 3px;
+	margin-top: 5px;
+	z-index: 900;
+	
+}
+
+
+.craft {
+	/*background-image: url("http://icons.iconarchive.com/icons/jonathan-rey/star-wars-vehicles/128/Tie-Fighter-01-icon.png");*/
+	-webkit-transform: scaleX(-1);
+	position: absolute;
+	height: 128px; 
+	width: 128px;
+	margin-top: 180px;
+	z-index: 1000;
+}
+
+craft {
+	-webkit-transform: scaleX(-1);
+}
+
+
+
+
+
+
+
+
+
+
+
